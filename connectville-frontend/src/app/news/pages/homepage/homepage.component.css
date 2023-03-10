@@ -1,0 +1,21 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin: auto;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.item {
+  /* font-size: 2em; */
+  padding: 1em;
+}
+
+.container {
+  margin-top: 100px;
+}

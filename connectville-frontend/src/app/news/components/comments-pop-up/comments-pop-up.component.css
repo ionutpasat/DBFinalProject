@@ -1,0 +1,13 @@
+.mat-card-subtitle {
+  color: black;
+  font-weight: bold;
+}
+
+.mat-card {
+  margin-bottom: 20px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+}

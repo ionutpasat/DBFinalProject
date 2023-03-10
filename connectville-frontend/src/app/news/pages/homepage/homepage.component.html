@@ -1,0 +1,32 @@
+<!-- <div
+  class="container"
+  fxLayout
+  fxLayoutAlign="center"
+  fxLayoutGap="10px"
+  fxLayoutGap.xs="0"
+>
+  <button
+    mat-fab
+    color="primary"
+    matTooltip="Create New Post"
+    (click)="createNewsClicked()"
+  >
+    <mat-icon>add</mat-icon>
+  </button>
+</div> -->
+
+<div
+  class="container"
+  fxLayout
+  fxLayoutAlign="center"
+  fxLayoutGap="10px"
+  fxLayoutGap.xs="0"
+>
+  <div class="cards-container">
+    <app-news-card
+      (deleted)="onNewsDelete(news.id)"
+      *ngFor="let news of newsList"
+      [news]="news"
+    ></app-news-card>
+  </div>
+</div>

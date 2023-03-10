@@ -1,0 +1,66 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-raised-button {
+  margin-right: 5px;
+}
+
+.create-post {
+  background-color: #b5683f;
+}
+
+.mat-toolbar-row {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  margin-top: 100px;
+}
+
+span {
+  font-size: 15px;
+  text-align: right;
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#logo {
+  margin-left: 5px;
+}
+
+#app_title {
+  font-size: large;
+}
+
+homepage-icon {
+  margin-left: 10px;
+  font-size: 26px;
+}
+
+.home-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#welcome_tag {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  color: #3f51b5;
+}
+
+#welcome_avatar {
+  font-size: 10px;
+  margin-left: 10px;
+}
